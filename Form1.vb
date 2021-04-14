@@ -3,6 +3,7 @@
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Dim strNamaHari(6) As String
         Dim y As Integer
+        'week 6 array
 
         strNamaHari(0) = "Ahad"
         strNamaHari(1) = "Isnin"
