@@ -29,7 +29,7 @@ Partial Class Form2
         'lblResult
         '
         Me.lblResult.AutoSize = True
-        Me.lblResult.Location = New System.Drawing.Point(350, 157)
+        Me.lblResult.Location = New System.Drawing.Point(226, 9)
         Me.lblResult.Name = "lblResult"
         Me.lblResult.Size = New System.Drawing.Size(51, 17)
         Me.lblResult.TabIndex = 0
@@ -37,7 +37,7 @@ Partial Class Form2
         '
         'btnPapar
         '
-        Me.btnPapar.Location = New System.Drawing.Point(353, 70)
+        Me.btnPapar.Location = New System.Drawing.Point(85, 243)
         Me.btnPapar.Name = "btnPapar"
         Me.btnPapar.Size = New System.Drawing.Size(75, 23)
         Me.btnPapar.TabIndex = 1
@@ -48,7 +48,7 @@ Partial Class Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(471, 519)
         Me.Controls.Add(Me.btnPapar)
         Me.Controls.Add(Me.lblResult)
         Me.Name = "Form2"

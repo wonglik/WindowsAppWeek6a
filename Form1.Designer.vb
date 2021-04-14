@@ -25,6 +25,7 @@ Partial Class Form1
         Me.lstResult = New System.Windows.Forms.ListBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.btnF2 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'lstResult
@@ -57,11 +58,21 @@ Partial Class Form1
         Me.Button1.Text = "Enter"
         Me.Button1.UseVisualStyleBackColor = False
         '
+        'btnF2
+        '
+        Me.btnF2.Location = New System.Drawing.Point(700, 244)
+        Me.btnF2.Name = "btnF2"
+        Me.btnF2.Size = New System.Drawing.Size(75, 23)
+        Me.btnF2.TabIndex = 4
+        Me.btnF2.Text = "Form 2"
+        Me.btnF2.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.btnF2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.lstResult)
@@ -74,4 +85,5 @@ Partial Class Form1
     Friend WithEvents lstResult As ListBox
     Friend WithEvents Label1 As Label
     Friend WithEvents Button1 As Button
+    Friend WithEvents btnF2 As Button
 End Class

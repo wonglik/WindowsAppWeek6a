@@ -1,6 +1,10 @@
 ﻿Public Class Form2
     Private Sub btnPapar_Click(sender As Object, e As EventArgs) Handles btnPapar.Click
         Dim strKelas(5, 3) As String
+        Dim strResult As String
+        Dim x As Integer
+        Dim y As Integer
+
         strKelas(0, 0) = "DDT1A"
         strKelas(0, 1) = "DDT1B"
         strKelas(1, 0) = "DDT2A"
@@ -20,6 +24,13 @@
         strKelas(5, 0) = "DDT6A"
         strKelas(5, 1) = "DDT6B"
 
+
+        For x = 0 To 5
+            For y = 0 To 3
+                strResult &= strKelas(x, y) & vbCrLf
+            Next
+            lblResult.Text = strResult
+        Next
 
     End Sub
 End Class
